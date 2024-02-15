@@ -1,0 +1,29 @@
+.banner{
+    background-image: url('banner/Banner\ Image.png');
+    position: absolute;
+    width: 1320px;
+    height: 600px;
+    margin: 50px 140px 0 140px;
+}
+.banner-title{
+    position: absolute;
+width: 259px;
+height: 40px;
+color: rgb(255, 255, 255);
+font-size: 32px;
+font-weight: 400;
+line-height: 40px;
+margin: 177px 530px 377px 530px;
+text-align: center;
+}
+.banner-description{
+    position: absolute;
+width: 632px;
+height: 190px;
+margin: 233px 344px 177px 344px ;
+color: rgb(255, 255, 255);
+font-size: 72px;
+font-weight: 900;
+line-height: 95px;
+text-align: center;
+}
