@@ -253,6 +253,7 @@ width: 1320px;
 height: 1163px;
 left: 140px;
 right: 140px;
+margin-bottom: 120px;
 }
 .gifts{
     color: rgb(255, 0, 0);
@@ -274,4 +275,46 @@ font-weight: 400;
 .img-row{
     display: flex;
     justify-content: space-between;
+}
+
+/* Subscription Section Styles */
+.news-container{
+position: absolute;
+width: 1320px;
+height: 616px;
+left: 140px;
+right: -140px;
+top: 5990.07px;
+bottom: -5990.07px;
+border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+margin-bottom: 120px;
+}
+.sub-img{
+position: absolute;
+width: 131px;
+height: 137px;
+margin-top: 100px;
+margin-left: 600px;
+}
+.sub-title{
+    color: rgb(7, 2, 17);
+font-size: 48px;
+font-weight: 900;
+text-align: center;
+margin-top: 270px;
+}
+.news-description{
+    color: rgba(7, 2, 17, 0.6);
+font-size: 20px;
+font-weight: 400;
+text-align: center;
+}
+.subscribe-btn{
+position: absolute;
+width: 648px;
+height: 72px;
+border-radius: 50px;
+
+background: rgb(255, 255, 255);
 }
