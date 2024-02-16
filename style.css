@@ -310,11 +310,80 @@ font-size: 20px;
 font-weight: 400;
 text-align: center;
 }
-.subscribe-btn{
-position: absolute;
-width: 648px;
-height: 72px;
-border-radius: 50px;
+.sub-div{
+    position: absolute;
+}
+.submit{
+    position: relative;
+}
 
-background: rgb(255, 255, 255);
+/* Footer Section Styles */
+.footer-container{
+position: absolute;
+width: 100%;
+color: rgb(255, 255, 255);
+top: 6726.07px;
+bottom: -6726.07px;
+background: rgb(7, 2, 17);
+}
+.parent-div{
+    margin-top: 120px;
+}
+.footer-details{
+font-size: 24px;
+font-weight: 500;
+margin-left: 140px;
+}
+.div-container{
+    display: flex;
+}
+.contact{
+    display: flex;
+    position: absolute;
+    width: 251px;
+    height: 80px;
+    left: 1074px;
+    margin-right: 475px;
+}
+.horizontal-line{
+position: absolute;
+width: 1320px;
+left: 140px;
+border: 1px solid rgba(255, 255, 255, 0.15);
+}
+.second-horizontal-line{
+position: absolute;
+width: 1320px;
+left: 140px;
+top: 410px;
+border: 1px solid rgba(255, 255, 255, 0.15);
+}
+.img-parent-div{
+    display: flex;
+position: absolute;
+width: 328px;
+height: 64px;
+left: 640px;
+right: 632px;
+gap: 10px;
+margin-top: 48px;
+margin-bottom: 48px;
+}
+.all-rights{
+    display: flex;
+    justify-content: space-between;
+    margin: 250px 140px 120px 140px;
+}
+.reserved{
+    color: rgb(255, 255, 255);
+font-size: 24px;
+font-weight: 500;
+}
+.footer-btn{
+    color: rgb(255, 255, 255);
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+background: none;
+border: none;
 }
