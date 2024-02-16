@@ -183,3 +183,65 @@ color: rgba(7, 2, 17, 0.6);
 font-size: 20px;
 font-weight: 400;
 }
+
+/* Holidays Sale Section */
+.holiday-section-container{
+width: 1320px;
+height: 986px;
+margin: 120px 140px 120px 140px;
+background-image: url('icons/Rectangle\ 2.png');
+background-repeat: no-repeat;
+background-position: bottom;
+}
+.holiday-section-description{
+position: absolute;
+width: 1068px;
+height: 260px;
+margin-left: 166px;
+margin-right: 166px;
+text-align: center;
+}
+.functional{
+    color: rgb(7, 2, 17);
+font-size: 24px;
+font-weight: 500;
+}
+.holiday-sale{
+font-size: 72px;
+font-weight: 900;
+}
+.holiday-description{
+    color: rgba(7, 2, 17, 0.6);
+font-size: 20px;
+font-weight: 500;
+}
+.image1{
+position: absolute;
+width: 674px;
+height: 577px;
+left: 200px;
+right: 724px;
+top: 3925px;
+}
+.image2{
+position: absolute;
+width: 429px;
+height: 433px;
+left: 1031px;
+right: 140px;
+top: 3925px;
+}
+.image3{
+position: absolute;
+width: 220.05px;
+height: 220.05px;
+left: 877px;
+right: 416px;
+top: 4125.72px;
+transform: rotate(-34.21deg);
+}
+.holiday-images{
+    display: flex;
+    justify-content: space-between;
+    gap: 45px;
+}
