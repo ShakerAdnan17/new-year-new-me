@@ -115,7 +115,8 @@ margin: 0 140px 120px 140px;
 .details{
 font-size: 32px;
 font-weight: 600;
-padding: 100px 386px 214px 385px;
+margin: 100px 386px 48px 385px;
+padding-top: 80px;
 }
 .event-color{
     color: rgb(255, 0, 0);
@@ -130,4 +131,55 @@ padding: 16px 32px 16px 32px;
 border-radius: 8px;
 background: rgb(255, 0, 0);
 border: none;
+margin-left: 576px;
+} 
+
+/* Best Offer Section Styles */
+.offer-container{
+    display: flex;
+    align-content: space-between;
+width: 1320px;
+height: 463px;
+margin-left: 140px;
+margin-right: 140px;
+}
+.best-offer{
+    color: rgb(255, 0, 0);
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+}
+.offer-coming-soon{
+    color: rgb(7, 2, 17);
+font-size: 48px;
+font-weight: 900;
+}
+.offer-description{
+    color: rgba(7, 2, 17, 0.6);
+font-size: 20px;
+font-weight: 400;
+width: 393px;
+height: 128px;
+}
+.offer-img{
+    margin-left: 70px;
+    margin-right: 115px;
+    padding: 45px 45px 45px 45px;
+    box-sizing: border-box;
+border: 15px solid rgb(255, 0, 0);
+border-radius: 50%;
+}
+.offer-year{
+width: 126px;
+height: 58px;
+color: rgb(255, 0, 0);
+font-size: 48px;
+font-weight: 700;
+}
+.offer-year-description{
+width: 276px;
+height: 96px;
+color: rgba(7, 2, 17, 0.6);
+font-size: 20px;
+font-weight: 400;
 }
