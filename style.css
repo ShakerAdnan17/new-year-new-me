@@ -1,6 +1,6 @@
+/* Banner Section Styles */
 .banner{
     background-image: url('banner/Banner\ Image.png');
-    position: absolute;
     width: 1320px;
     height: 600px;
     margin: 50px 140px 0 140px;
@@ -26,4 +26,108 @@ font-size: 72px;
 font-weight: 900;
 line-height: 95px;
 text-align: center;
+}
+
+/* New Year section styles */
+.new-year{
+width: 802.9px;
+height: 806px;
+margin: 120px 400px 120px 400px;
+align-items: center;
+}
+.new-year-title{
+width: 383px;
+height: 107px;
+color: rgb(255, 0, 0);
+font-size: 88px;
+font-weight: 700;
+line-height: 107px;
+text-align: center;
+margin: 120px 210px 0 210px;
+}
+.new-year-deals{
+width: 397px;
+height: 29px;
+color: rgb(255, 0, 0);
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+text-align: center;
+margin: 48px 210px 16px 210px;
+}
+.new-year-categories{
+width: 410px;
+height: 58px;
+color: rgb(7, 2, 17);
+font-size: 42px;
+font-weight: 700;
+text-align: center;
+margin: 0 196px 48px 196px;
+}
+
+/* Party Section Styles */
+.party-container{
+display: flex;
+background-image: url('images/Vectorrr.png');
+width: 1320px;
+height: 600px;
+border-radius: 16px;
+margin: 0 140px 120px 140px;
+}
+.party-details{
+    margin-left: 126px;
+    margin-top: 126px;
+}
+.party-title{
+width: 642px;
+height: 176px;
+color: rgb(255, 255, 255);
+font-size: 64px;
+font-weight: 900;
+}
+.party-description{
+width: 697px;
+height: 60px;
+color: rgba(255, 255, 255, 0.8);
+font-size: 18px;
+font-weight: 400;
+}
+.party-btn{
+color: rgb(255, 255, 255);
+font-size: 20px;
+font-weight: 700;
+text-align: center;
+background: none;
+border: none;
+}
+.party-img{
+margin-top: 68px;
+}
+
+/* Event Details Section Styles */
+.event-details{
+width: 1320px;
+height: 482px;
+border-radius: 16px;
+background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+margin: 0 140px 120px 140px;
+}
+.details{
+font-size: 32px;
+font-weight: 600;
+padding: 100px 386px 214px 385px;
+}
+.event-color{
+    color: rgb(255, 0, 0);
+}
+.event-btn{
+color: rgb(255, 255, 255);
+font-size: 20px;
+font-weight: 700;
+width: 167px;
+height: 56px;
+padding: 16px 32px 16px 32px;
+border-radius: 8px;
+background: rgb(255, 0, 0);
+border: none;
 }
